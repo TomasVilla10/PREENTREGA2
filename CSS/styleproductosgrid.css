@@ -18,12 +18,13 @@ header {
 
 
 
-h2 {display: block;
+h2 {
+    display: block;
     color: rgb(124, 2, 2);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     background-image: url(../Multimedia/racelogoheader.jpg);
-    
+
 }
 
 h3 {
@@ -102,7 +103,7 @@ a {
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 0,5fr 0,5fr 0,5fr 0,5fr;
+    grid-template-rows: 0, 5fr 0, 5fr 0, 5fr 0, 5fr;
     gap: 8px 8px;
     grid-auto-flow: row;
     grid-template-areas:
@@ -134,7 +135,11 @@ a {
 }
 
 
-.img23 {height: 280px; width: 280px;}
+.img23 {
+    height: 280px;
+    width: 280px;
+}
+
 .footer {
     grid-area: footer;
     text-align: center;
