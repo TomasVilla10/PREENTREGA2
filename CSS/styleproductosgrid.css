@@ -94,5 +94,24 @@ a {
     justify-content: center;
 
 }
-
-
+.container {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 28px 3px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "header header header header"
+      "productos maps maps maps"
+      "productos maps maps maps"
+      "footer footer footer footer";
+  }
+  
+  .header { grid-area: header; }
+  
+  .productos { grid-area: productos; }
+  
+  .maps { grid-area: maps; }
+  
+  .footer { grid-area: footer; }
+  
+  
