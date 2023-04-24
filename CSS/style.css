@@ -1,0 +1,15 @@
+body{background-image: url(../Multimedia/logomustang123.jpg); background-attachment: fixed;}
+h1{color: rgb(124, 2, 2); background-image: url(../Multimedia/racelogoheader.jpg); font-size: 100px;}
+header{color: rgb(124, 2, 2); font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-style: initial;}
+h2{color: aliceblue; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; background-color: black;}
+li{color: rgb(124, 2, 2); font-family: serif; font-size: 30px; text-decoration: none;}
+h3{color: aliceblue; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+h4{color: aliceblue;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+.mail{background-color: rgb(124, 2, 2); font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+.boton-oscuro{color: maroon; background-color: black; font-family: sans-serif;}
+h5{color:rgb(124, 2, 2); font-size: 30px; font-family: monospace; font-weight: bolder; background-color: black; height: 10px; width: 10px;}
+p{color:rgb(124, 2, 2); font-size: 25px; font-family: sans-serif; font-weight: bold; background-image: url(../Multimedia/racelogoheader.jpg);}
+.mustang{width: 552px; height: 368.736px;}
+a{text-decoration: none;}
+
+
