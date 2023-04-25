@@ -19,12 +19,15 @@ header {
 
 
 h2 {
+    border-radius: 15px;
     display: block;
-    color: rgb(124, 2, 2);
+    color: rgb(0, 0, 0);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
-    background-image: url(../Multimedia/racelogoheader.jpg);
-
+    margin-left: 90px;
+    background: rgb(36, 0, 0);
+    inline-size: 250px;
+    background: linear-gradient(90deg, rgba(36, 0, 0, 1) 0%, rgba(121, 9, 9, 1) 50%, rgba(255, 255, 255, 1) 100%);
 }
 
 h3 {
@@ -127,20 +130,38 @@ a {
     grid-area: maps;
     width: 1000px;
     height: 1000px;
-    text-align: center;
-    padding: top 0%;
-    padding: left 10%;
-    padding: right 10%;
-    padding: bottom 10%;
+    padding: 15%;
+    margin: auto;
 }
 
 
 .img23 {
     height: 280px;
     width: 280px;
-}
+border-radius: 15px;}
 
 .footer {
     grid-area: footer;
     text-align: center;
+}
+
+.comprar {
+    margin-left: 18%;
+}
+
+ul li a {
+    text-transform: uppercase;
+    color: rgb(124, 2, 2);
+    padding: 10px;
+    transition: 0.5s ease;   
+}
+
+u:hover li a {
+    color: rgb(255, 15, 15);
+}
+
+ul:hover li a:not(:hover){
+    color: rgb(250, 1, 1);
+    opacity: 0.3;
+    filter:blur(3px);
 }
