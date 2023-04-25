@@ -33,6 +33,7 @@ h4 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+
 .mail {
     background-color: rgb(124, 2, 2);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -102,8 +103,8 @@ ul li a {
     transition: 0.5s ease;   
 }
 
-u:hover li a {
-    color: rgb(255, 15, 15);
+ul:hover li a {
+    color: rgb(148, 13, 13);
 }
 
 ul:hover li a:not(:hover){

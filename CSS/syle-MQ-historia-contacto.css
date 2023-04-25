@@ -3,6 +3,7 @@ body {
     background-attachment: fixed;
 }
 
+
 h1 {
     color: rgb(124, 2, 2);
     background-image: url(../Multimedia/racelogoheader.jpg);
@@ -16,18 +17,12 @@ header {
     font-style: initial;
 }
 
-
-
 h2 {
-    border-radius: 15px;
-    display: block;
-    color: rgb(0, 0, 0);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: center;
-    margin-left: 90px;
-    background: rgb(36, 0, 0);
-    inline-size: 250px;
-    background: linear-gradient(90deg, rgba(36, 0, 0, 1) 0%, rgba(121, 9, 9, 1) 50%, rgba(255, 255, 255, 1) 100%);
+    color: rgb(126, 8, 8);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: black;
+    justify-content: center;
+    border-radius: 10px;
 }
 
 h3 {
@@ -78,20 +73,14 @@ p {
 }
 
 header ul {
-    color: rgb(124, 2, 2);
-    display: flex;
-    justify-content: space-between;
-    width: 200px;
     list-style: none;
 }
 
 header ul li {
-    padding: 10%;
-    justify-content: center;
-    text-align: center;
-
+    padding: 15px;
+    margin: auto;
+    padding: auto;
 }
-
 
 
 a {
@@ -102,60 +91,7 @@ a {
     justify-content: center;
 
 }
-
-.container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 0, 5fr 0, 5fr 0, 5fr 0, 5fr;
-    gap: 8px 8px;
-    grid-auto-flow: row;
-    grid-template-areas:
-        "header header header header"
-        "productos maps maps maps"
-        "productos maps maps maps"
-        "footer footer footer footer";
-}
-
-.header {
-    grid-area: header;
-}
-
-.productos {
-    grid-area: productos;
-    text-align: center;
-    justify-content: center;
-}
-
-.maps {
-    grid-area: maps;
-    width: 1000px;
-    height: 1000px;
-    padding: 15%;
-    margin: auto;
-}
-
-
-.img23 {
-    height: 280px;
-    width: 280px;
-border-radius: 15px;}
-
-.footer {
-    grid-area: footer;
-    text-align: center;
-}
-
-.comprar {
-    margin-left: 18%;
-}
-
-ul li a {
-    text-transform: uppercase;
-    color: rgb(124, 2, 2);
-    padding: 10px;
-    transition: 0.5s ease;   
-}
-
+/* animacion */
 ul li a {
     text-transform: uppercase;
     color: rgb(124, 2, 2);
@@ -172,3 +108,21 @@ ul:hover li a:not(:hover){
     opacity: 0.3;
     filter:blur(3px);
 }
+
+
+
+.mobile-last {
+    max-width: 700px;
+    margin: auto;
+    padding: 20px;
+}
+
+@media (max-width: 780px){
+    .mobile-last{
+        padding: auto;
+        margin: auto;
+
+    }
+}
+
+
