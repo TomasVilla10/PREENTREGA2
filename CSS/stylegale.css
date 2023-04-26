@@ -73,12 +73,15 @@ p {
     justify-content: center;
 }
 
-header ul {
+ul {
     color: rgb(124, 2, 2);
     list-style: none;
+    color: rgb(124, 2, 2);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ 
 }
 
-header ul li {
+ul li {
     padding: 15px;
     justify-content: center;
     text-align: center;
@@ -99,17 +102,17 @@ ul li a {
     text-transform: uppercase;
     color: rgb(124, 2, 2);
     padding: 10px;
-    transition: 0.5s ease;   
+    transition: 0.5s ease;
 }
 
 ul:hover li a {
     color: rgb(148, 13, 13);
 }
 
-ul:hover li a:not(:hover){
+ul:hover li a:not(:hover) {
     color: rgb(250, 1, 1);
     opacity: 0.3;
-    filter:blur(3px);
+    filter: blur(3px);
 }
 
 .mustang1 {
